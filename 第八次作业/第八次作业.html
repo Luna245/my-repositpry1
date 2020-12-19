@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function makeClosures(arr, fn) 
+{
+    var result = new Array();
+    result.length = arr.length;
+    for(let i = 0;i<result.length;i++)
+    result[i] = arr[i];
+    return result;
+}
+    let array = [1, 2, 3]
+    let foo = (x) => {
+    console.log(x)
+}
+let fun = makeClosures(array, foo)
+console.log(fun[2])
+
+
+
+
+Function.prototype.call2 = function x(a,b) {
+    a.ts =b.ts = this;
+    //b.zjb.zj = this;
+    a.ts();
+    b.ts();
+    //delete a.ts;
+    //delete b.zj;
+};
+function sayInfo() {
+    console.log("name:"+this.name)
+    console.log("age:"+this.age)
+}
+var user = {
+    name: "zzx"
+}
+var age = {
+    age: "100"
+}
+sayInfo.call2(user,age)
+//name:zzx
+//age:100
+</script>
+<body>
+    
+</body>
+</html>
