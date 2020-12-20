@@ -1,0 +1,72 @@
+HTML:
+1.
+2.文件加载失败显示1111；加载成功时当鼠标移动到图片上方会显示2222
+3.target = “_blank"
+
+CSS:
+1.<div></div>
+2.对奇数span添加:style="color: red;"属性
+3.如下：
+<style>
+.div {
+display: flex;
+justify-content: center;
+}
+.body {
+backgroundcolor: red;
+}
+4.删掉margin-bottom: 50px;
+margin-top: 100px改为margin-top: 150px;
+
+JS：
+1.控制台输出：
+>  1
+>  2
+>  3
+>  4
+>  5
+>  6
+2.结果是在控制台输出了3
+原因：const obj2 = obj1;将a改为了2；
+         而obj2.a = 3;有将3赋值给了a；
+3.（1）输出结果为：3
+原因是：在fn2中const定义的a不能传递给fn（）
+const定义的区域块不同
+   （2）将第二个n用const定义
+4.（1）5.5
+   （2）0 1 2 3 4
+   （3）5.5 6 7 8 9 10
+5. （1）引用了Person函数
+
+编程
+1.
+let arr = [1,2,3,4,2,4];
+let arr1 = new Array;   
+for(let i = 0; i<arr.length; i++)
+for(let j = 0; j<arr.length; j++)
+{
+    if(arr[j]==arr[i]&&i!=j)
+    arr.splice(i,1);
+}
+console.log(arr);
+2.
+function x(a) {
+    let b = a.toString();
+    let c=b[b.length-1];
+    console.log(c);
+    if(b[0]!='-')
+    {for(let s=b.length-2;s>=0;s--)
+    c = c+b[s];
+    console.log(c);}
+    else
+    {
+        for(let s=b.length-2;s>=1;s--)
+    c = c+b[s];
+    console.log(-c);
+    }
+}
+x(-3456)
+3.
+
+
+
