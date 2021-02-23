@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/主页面.css" type="text/css">
+    <script src="../js/addLoadEvent.js" async></script>
+    <script src="../js/主页面.js" async></script>
+    <!-- async可以无视script的位置边下载js边加载html -->
+    <!-- 如果不用async会发现getElementsByTagName无效 -->
+    <!-- js放在开头和末尾的优缺点 -->
+    <!-- js放在开头会导致用getElements等查找元素无效 -->
+    <!-- 放在结尾会使js布局无效（一般不会使用js布局，所以最好放在结尾，或者用async和addLoadEvent函数） -->
+</head>
+<body>
+
+    <div id="firstDiv">
+        <div>
+            <table style="width: 440px;align-content: center;float: left;margin-top: 5px;" cellpadding="0";>
+                <tr>
+                    <td><a href="333">主站</a> </td>
+                    <td><a href="333">番剧</a></td>
+                    <td><a href="333">直播</a></td>
+                    <td><a href="333">游戏中心</a></td>
+                    <td><a href="333">赛事</a></td>
+                    <td><a href="333">📱下载app</a></td>
+                </tr>
+            </table>
+            <div style="margin: 0 auto;width: 520px;height: 5px;margin-top: -5px;" >
+                <input type="text"  style="border-radius: 5px 0 0 5px;">
+                <input type="submit" name="send" class="search-button" value="🔎 " />
+            </div>
+            <table style="width: 550px;align-content: center;float: right;margin-top: -8px;margin-right: -100px;" cellpadding="0"; >
+                <tr>
+                    <td><div id="login"><a href="../../登录界面/html/log in.html" style="color: #FB7299;">登录</a></div></td>
+                    <td><a href="333">大会员</a> </td>
+                    <td><a href="333">消息</a></td>
+                    <td><a href="333">动态</a></td>
+                    <td><a href="333">收藏</a></td>
+                    <td><a href="333">历史</a></td>
+                    <td><button style="width: 120px;height: 35px;background-color: #FB7299;">投稿</button></td>
+                </tr>
+            </table>
+        </div>
+        <img src="../pictrue/firstDiv/QQ截图20210222235039.png" alt="">
+    </div>  
+    
+    <div class="Bigbox">
+        <div id="div1">
+            <div><a href="233"><img src="../pictrue/div1/首页.png" alt="">首页</a></div>
+            <div><a href="233"><img src="../pictrue/div1/木鱼.png" alt="">关注</a></div>
+            <div><a href="233"><img src="../pictrue/div1/热门.png" alt="">热门</a></div>
+            <div><a href="233"><img src="../pictrue/div1/频道.png" alt="">频道</a></div>
+        </div> 
+
+        <div class="SL">
+        </div>
+
+        <div id="Classify">
+            <!-- <div> -->
+                <div><a href="233">动漫</a></div>
+                <div><a href="233">音乐</a></div>
+                <div><a href="233">舞蹈</a></div>
+                <div><a href="233">知识</a></div>
+                <div><a href="233">生活</a></div>
+                <div><a href="233">时尚</a></div>
+                <div><a href="233">娱乐</a></div>
+                <div><a href="233">放映</a></div>
+                <div><a href="233">美食</a></div>
+                <div><a href="233">单机</a></div>
+            <!-- </div> -->
+            <!-- <div> -->
+            <div><a href="233">番剧</a></div>
+            <div><a href="233">国创</a></div>
+            <div><a href="233">游戏</a></div>
+            <div><a href="233">数码</a></div>
+            <div><a href="233">鬼畜</a></div>
+            <div><a href="233">资讯</a></div>
+            <div><a href="233">影视</a></div>
+            <div><a href="233">搞笑</a></div>
+            <div><a href="233">动物</a></div>
+            <div><a href="233">VLOG</a></div>
+            <!-- </div> -->
+        </div>
+
+        <div class="SL">
+        </div>
+
+        <div id="div3">
+            <table align="center" cellpadding="0" cellspacing="10px" width="320px" height="115px" >
+            <tr>   <td>专栏</td>     <td>活动</td>               <td>小黑屋</td></tr>
+            <tr>   <td>直播</td>       <td>课堂</td>               <td>音乐PLUS</td></tr>
+            </table></div>
+    </div>  
+    <div style="display: flex;flex-direction: row;width: 1650px;margin: 0 auto;">
+		<div id="carousel_map">
+            <div class="slide"><img src="../pictrue/轮播/1.png" alt=""></div>
+            <div class="slide"><img src="../pictrue/轮播/2.png" alt=""></div>
+            <div class="slide"><img src="../pictrue/轮播/3.png" alt=""></div>
+            <div class="slide"><img src="../pictrue/轮播/4.png" alt=""></div>
+            <div class="slide"><img src="../pictrue/轮播/5.png" alt=""></div>
+        </div>
+        <div id="select_show" >
+            <div><img src="../pictrue/select_show/QQ截图20210223003505.png" alt=""></div>
+            <div><img src="../pictrue/select_show/QQ截图20210223003505.png" alt=""></div>
+            <div><img src="../pictrue/select_show/QQ截图20210223003505.png" alt=""></div>
+            <div><img src="../pictrue/select_show/QQ截图20210223003505.png" alt=""></div>
+            <div><img src="../pictrue/select_show/QQ截图20210223003505.png" alt=""></div>
+            <div><img src="../pictrue/select_show/QQ截图20210223003505.png" alt=""></div>
+            <div><img src="../pictrue/select_show/QQ截图20210223003505.png" alt=""></div>
+            <div><img src="../pictrue/select_show/QQ截图20210223003505.png" alt=""></div>
+            <div><img src="../pictrue/select_show/QQ截图20210223003505.png" alt=""></div>
+            <div><img src="../pictrue/select_show/QQ截图20210223003505.png" alt=""></div>
+        </div>
+	</div>
+    <div id="推广" style="margin:0px auto;width: 1650px;">
+        <div style="width: 220px;height: 50px;"><img src="../pictrue/推广/QQ截图20210223004205.png" alt=""></div>
+        <div style="display: flex;flex-direction: row;flex-wrap: wrap;">
+            <div><img src="../pictrue/推广/QQ截图20210223004244.png" alt=""></div>
+            <div><img src="../pictrue/推广/QQ截图20210223004244.png" alt=""></div>
+            <div><img src="../pictrue/推广/QQ截图20210223004244.png" alt=""></div>
+            <div><img src="../pictrue/推广/QQ截图20210223004244.png" alt=""></div>
+            <div><img src="../pictrue/推广/QQ截图20210223004244.png" alt=""></div>
+            <div><img src="../pictrue/推广/QQ截图20210223004244.png" alt=""></div>
+            <div><img src="../pictrue/推广/QQ截图20210223004244.png" alt=""></div>
+
+        </div>
+    </div>
+    <div id="直播" style="margin:0px auto;width: 1650px;">
+        <div style="width: 220px;height: 50px;"><img src="../pictrue/直播/QQ截图20210223005100.png" alt=""></div>
+        <div style="display: flex;flex-direction: row;flex-wrap: wrap;">
+            <div><img src="../pictrue/直播/主播某某.png" alt=""></div>
+            <div><img src="../pictrue/直播/主播某某.png" alt=""></div>
+            <div><img src="../pictrue/直播/主播某某.png" alt=""></div>
+            <div><img src="../pictrue/直播/主播某某.png" alt=""></div>
+            <div><img src="../pictrue/直播/主播某某.png" alt=""></div>
+            <div><img src="../pictrue/直播/主播某某.png" alt=""></div>
+            <div><img src="../pictrue/直播/主播某某.png" alt=""></div>
+            <div><img src="../pictrue/直播/主播某某.png" alt=""></div>
+            <div><img src="../pictrue/直播/主播某某.png" alt=""></div>
+            <div><img src="../pictrue/直播/主播某某.png" alt=""></div>
+            <div><img src="../pictrue/直播/主播某某.png" alt=""></div>
+            <div><img src="../pictrue/直播/主播某某.png" alt=""></div>
+            <div><img src="../pictrue/直播/主播某某.png" alt=""></div>
+            <div><img src="../pictrue/直播/主播某某.png" alt=""></div>
+        </div>
+    </div>
+    <div id="sidebar" style="position: absolute;top: 350px;right: 50px;">
+        <table style="width: 45px;height: 50px;" align="center">
+            <tr><td><a href="2">直播</a></td></tr>
+            <tr><td><a href="2">动漫</a></td> </tr>
+            <tr><td><a href="2">番剧</a></td></tr>
+            <tr><td><a href="2">国创</a></td></tr>
+            <tr><td><a href="2">漫画</a></td></tr>
+            <tr><td><a href="2">音乐</a></td></tr>
+            <tr><td><a href="2">舞蹈</a></td></tr>
+            <tr><td><a href="2">游戏</a></td></tr>
+            <tr><td><a href="2">知识</a></td></tr>
+            <tr><td><a href="2">课堂</a></td></tr>
+            <tr><td><a href="2">数码</a></td></tr>
+            <tr><td><a href="2">生活</a></td></tr>
+            <tr><td><a href="2">美食</a></td></tr>
+            <tr><td><a href="2">动物</a></td></tr>
+            <tr><td><a href="2">鬼畜</a></td></tr>
+            <tr><td><a href="2">时尚</a></td></tr>
+            <tr><td><a href="2">资讯</a></td></tr>
+            <tr><td><a href="2">娱乐</a></td></tr>
+            <tr><td><a href="2">专栏</a></td></tr>
+            <tr><td><a href="2">电影</a></td></tr>
+            <tr><td><a href="2">电剧</a></td></tr>
+            <tr><td><a href="2">记录</a></td></tr>
+        </table>
+    </div>
+ 
+</body>
+</html>

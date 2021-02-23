@@ -1,0 +1,128 @@
+#firstDiv {
+    height: 190px;
+}
+input {
+    outline: none;
+    padding: 0 0 0 7px;
+	width: 450px;
+	height: 35px;
+	border: 1px solid #b6b6b6;
+	float:left;
+    position: relative;
+    left: 20px;
+}
+.search-button{
+    width: 50px;
+	height: 37px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border: 0;
+	background-color: #7b8490;
+	color: #fff;
+	font-size: 15px;
+    border-radius: 0 5px 5px 0;
+    }
+
+.Bigbox {
+    margin: 0 auto;
+    display: flex;
+    width: 1650px;
+    height: 100px;
+    flex-direction: row;
+    
+}
+/* div {
+    border: 1px solid black;
+} */
+#div1 {
+    width: 280px;
+    height: 100px;
+}
+#div1>div {
+    
+    text-align: center;
+    width: 50px;
+    height: 100px;
+    float: left;
+    margin: 0 5px;
+}
+a {
+    text-decoration: none;
+    color: rgb(70, 68, 68);
+}
+a:hover {
+    color: pink;
+}
+#Classify {
+    
+    width: 1024px;
+    height: 100px;
+}
+#Classify>div {
+    float: left;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
+#carousel_map {
+    width: 550px;
+    height: 240px;
+    position:relative;
+    overflow: hidden;
+}
+#carousel_map>div {
+    width: 550px;
+    height: 240px;
+    position:absolute;
+}
+
+#select_show {
+    float: left;
+    height: 240px;
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#select_show>div {
+    height: 110px;
+    width: 206px;
+    margin-left: 10px;
+}
+#div3>table {
+    border: none;
+}
+#div3 {
+    margin-top: -22px;
+    margin-left: 10px;
+}
+#推广>div>div {
+    margin-right: 23px;
+}
+#直播>div>div {
+    margin-right: 27px;
+}
+#sidebar {
+    width: 50px;
+    height: 550px;
+    border: 2px solid pink;
+    border-radius: 5px;
+}
+#sidebar>table>tr>td:hover {
+    color: pink;
+}
+.SL {
+    background-color: #000;
+    width: 1px;
+    height: 100px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+#login {
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 250%;
+}

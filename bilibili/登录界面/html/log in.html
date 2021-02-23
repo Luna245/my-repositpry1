@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/log in.css" type="text/css">
+    <script src="../js/addLoadEvent.js"></script>
+    <script src="../js/log in.js" type="text/javascript"></script>
+    <!-- 如果把script放在头文件会出现Cannot read property 'XXX' of null错误，所以放在末尾，当然也可以用addLoadEvent解决 -->
+
+</head>
+<body>
+    <div id="navist">
+        <ul style="height: 50px;margin-top: -10px;">
+            <img src="../photo/pilipili.png" alt="" style="height: 50px;">
+            <a href="233" id="main1">主站</a>&nbsp;&nbsp;
+            <a href="233">番剧</a>&nbsp;&nbsp;
+            <a href="233">游戏中心</a>&nbsp;&nbsp;
+            <a href="233">直播</a>&nbsp;&nbsp;
+            <a href="233">会员购</a>&nbsp;&nbsp;
+            <a href="233">漫画</a>&nbsp;&nbsp;
+            <a href="233">赛事</a>&nbsp;&nbsp;
+            <a href="233">📱下载APP</a>&nbsp;&nbsp;
+         </ul>
+         <ul style="height: 50px;position: absolute;right: 100px;"> 
+            <a href="233">注册</a>&nbsp;&nbsp;
+            <a href="233">登录</a>&nbsp;&nbsp;
+            <button style="position: relative;top: -10px;">投稿</button>
+        </ul>
+    </div>
+    <div id="head_blue">
+        <img src="../photo/blue_head.png" alt="" style="height: 150px;width: 125%;position: relative;left: -13%;">
+    </div>
+    <div id="log">登录</div>
+    <div id="mostBig">
+    <div class="bigBox">
+        <img src="../photo/二维码.png" alt="">
+    </div>
+    <div class="bigBox" style="border-width: 0px 0px 0px 2px;border-left-color: rgb(146, 137, 137);border-style: solid;">
+        <!-- 单侧边框 border-width: 0px 0px 0px 2px-->
+        <div style="width: 480px;margin-left: 50px;margin-top: 60px;">
+        <div style="width: 480px;height: 60px;margin-bottom: -20px;">
+
+        <a href="2333" class="shift" onclick="return false" class="logChange">密码登录</a>
+        <a href="2333" class="shift" onclick="return false" class="logChange">短信登录</a>
+        
+        </div>
+        <div>
+        <input class="IPT" type="text" id="telNumber" value="您的手机号/邮箱" onclick="empty(this)">
+        <input class="IPT" type="text" id="password" value="密码" onclick="empty(this)">
+        </div>
+        <p style="margin-top: 50px;">
+        <input type="checkbox" name="" id="rememberMe"><label for="rememberMe">记住我  &nbsp &nbsp <b style="color: rgb(139, 123, 123);">不是自己电脑不要勾选此项</b> </label><a href="" style="margin-left: 50px;">无法验证</a> <a href="">忘记密码</a>
+        </p>
+        <button id="login" onclick="jump()">登录</button>
+        <button>注册</button>
+        </div>
+        
+    </div>
+    </div>
+    <div id="lastline">登录即代表你同意<a href="233" onclick="return false">用户协议</a>和<a href="233" onclick="return false">隐私政策</a></div>
+    
+</body>
+</html>

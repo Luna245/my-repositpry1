@@ -1,0 +1,87 @@
+#log {
+    margin: 20px auto;
+    color: rgb(112, 110, 110);
+    height: 50px;
+    width: 100px;
+    font-size: 40px;
+}
+.shift {
+    text-decoration: none;
+    
+}
+.shift:link {
+    color: rgb(112, 110, 110);
+}
+.shift:visited {
+    color: rgb(219, 212, 212);
+}
+.shift:hover {
+    color: pink;
+}
+a:hover {
+    color: pink;
+}
+.IPT {
+    border-color: #c3b7b7;
+    width: 410px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.bigBox {
+    width: 510px;
+    height: 400px;
+}
+#mostBig {
+    margin: 0 auto;
+    width: 1020px;
+    height: 400px;  
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: flex-start;
+}
+button {
+    
+    border-width: 1px;
+    width: 190px;
+    height: 40px;
+    margin-right: 30px;
+    outline: none;/*点击button是会出现粗边框的，这样设置就不会出现*/
+}
+#login {
+    background-color: #00bee7;
+}
+#head_blue {
+    height: 150px;
+}
+#navist {
+    height: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#navist>ul>a:link {
+    color: #212121
+}
+#navist>ul>a {
+    text-decoration: none;
+    position: relative;
+    top: -10px;
+    margin-right: 20px;
+}
+#navist>ul>button {
+    background-color: #FB7299;
+    margin-left: 10px;
+}
+#lastline {
+    text-align: center;
+    margin: 100px auto;
+    height: 50px;
+}
+#lastline>a {
+    text-decoration: none;
+}
+
+
